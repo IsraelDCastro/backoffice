@@ -1,0 +1,216 @@
+/*
+Theme Name: Adventure Tours Child
+Theme URI: http://themeforest.net/user/themedelight/portfolio
+Template: adventure-tours
+Author: ThemeDelight
+Author URI: http://themeforest.net/user/themedelight
+Description: Adventure Tours is a fully responsive WordPress theme
+Tags: blue,white,two-columns,right-sidebar,responsive-layout,flexible-header,custom-colors,theme-options,translation-ready,holiday
+Version: 2.2.9.1516375415
+Updated: 2018-01-19 11:23:35
+
+*/
+body{
+	background: black !important;
+}
+.logout-icon {
+    font-size: 20px !important;
+}
+.btn {
+    -moz-border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    -o-border-radius: .25rem;
+    border-radius: .25rem;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 1px solid  #868e96 !important;
+    -moz-transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -o-transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    letter-spacing: 4px;
+    padding: .375rem .75rem;
+	text-align: left;
+}
+.btn-lg, .btn-group-lg>.btn {
+    -moz-border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+    border-radius: 6px !important;
+    line-height: 1.3333333 !important;
+    font-size: 12px !important;
+    padding: 10px 16px !important;
+}
+.btn-block {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.my-btn-secondary {
+    background-color: #000;
+    color: #fff !important;
+    font-weight: bold;
+	margin: 0 auto;
+    text-align: center !important;
+}
+.staff-btn{
+	width: 70%
+}
+.blog-btn{
+	width: 100%
+}
+.footer .widget__title {
+    font-size: 1em !important;
+    border-bottom: 2.5px solid #888888;
+}
+.footer__widgets-area--1 .widget__title, .footer__widgets-area--2 .widget__title{
+    text-align: center;
+}
+.footer__copyright {
+background-image: url(https://res.cloudinary.com/globex-tours/image/upload/v1519223348/PAYWITH_sabgz0_hw9rdd.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.widget-last-posts__item:before{
+	content: none !important;
+}
+/* Tabs Horizontal */
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic.vc_tta-tabs .vc_tta-panels, .vc_tta.vc_tta-tabs.vc_tta-style-classic .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-body {
+    background-color: transparent !important;
+}
+.vc_tta.vc_tta-tabs.vc_tta-style-classic.vc_tta-tabs-position-top .vc_tta-tabs-list {
+    border-bottom: none !important;
+}
+.vc_tta.vc_tta-tabs.vc_tta-style-classic .vc_tta-tabs-list .vc_tta-tab a, .vc_tta.vc_tta-tabs.vc_tta-style-classic .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading a {
+    background: #fdcaa9 !important;
+    color: #000 !important;
+	border-top-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+	height: 40px !important;
+    line-height: 42px !important;
+}
+.vc_tta.vc_tta-tabs.vc_tta-style-classic .vc_tta-tabs-list .vc_tta-tab.vc_active a, .vc_tta.vc_tta-tabs.vc_tta-style-classic .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading a {
+    background: #88cfff !important;
+    color: #000 !important;
+}
+.widget-last-posts__item__title a {
+    font-weight: normal !important;
+}
+
+@media (min-width: 767px) {
+	.widget-last-posts__item {
+    	padding-bottom: 3.55px !important;
+	}
+	.widget-last-posts__item__title {
+    	font-size: 14px !important;
+	}
+}
+@media (max-width: 767px) {
+	.footer__copyright {
+    background-image: url(https://res.cloudinary.com/globex-tours/image/upload/v1519223348/PAYWITH_sabgz0_hw9rdd.png);
+    background-size: 100%;
+}
+	.vc_tta.vc_tta-tabs.vc_tta-style-classic .vc_tta-panels-container .vc_tta-panels .vc_tta-panel {
+    	box-shadow: none !important;
+	}
+	.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+    	background-color: transparent;
+	}
+}
+@media (min-width: 992px) {
+}
+
+/* Form Portada */
+.form-booking{
+        overflow: hidden;
+        width: 425px;
+        margin: 0 auto;
+        background-color: rgba(0,0,0,.3);
+        border-radius: 5px;
+    }
+    .label-input{
+      color: #fff;
+    }
+    .booking-title{
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+    select.input-field {
+        width: 100%;
+        height: 38px;
+        margin-bottom: 10px;
+    }
+
+    .form-radio{
+      display: inline-block;
+      color: #fff;
+    /*   margin-left: 10px; */
+    }
+    .form-radio:nth-child(2){
+    	margin-left: 10px;
+    }
+    .input-field, .input-number{
+      height: 30px;
+      padding: 5px 20px;
+      border-radius: 6px;
+      color: #515151;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    	text-transform: uppercase;
+    }
+    input::placeholder{
+      color: #515151;
+    }
+    .mid-width-book {
+      display: inline-block;
+      width: 49%;
+    }
+    .quantity-field .input-number {
+        width: 25%;
+        display: inline-block;
+        margin: 0 14px 0 0;
+    }
+    .section-field{
+      margin: 1em;
+    }
+    .section-radio, .quantity-field{
+      margin: 1em 0;
+    }
+    .section-button{
+      margin: 1em;
+    }
+    .button-book{
+      padding: .4em 3em;
+      text-transform: uppercase;
+      font-weight: 700;
+      background-color: orange;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .button-book:hover{
+      background-color: #d88c00;
+      -webkit-transition: .3s ease-in-out;
+      -moz-transition: .3s ease-in-out;
+      -ms-transition: .3s ease-in-out;
+      -o-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    .btn-block-book {
+        width: 100%;
+        margin: 0 auto;
+    }
+    @media screen and (max-width: 478px){
+      .form-booking{
+        width: 100%;
+      }
+      .input-field, .input-number{
+        width: 80%;
+        margin-bottom: 5px;
+      }
+    }

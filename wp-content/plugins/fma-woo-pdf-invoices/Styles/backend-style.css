@@ -1,0 +1,77 @@
+/*-----------------------*/
+/*-----Backend Styles-----*/
+/*----------------------*/
+
+a.button.tips.wpo_wcpdf img {
+	width: auto !important;
+	height: 22px !important;
+}
+a.button.tips.wpo_wcpdf {
+	padding: 0px !important;
+}
+.settingimage {
+	position: absolute;
+	top: 51px;
+	left: 21px;
+	width: 100px;
+}
+#setting-pdf {
+	position: relative;
+	min-height: 90px;
+	border: 1px solid #3D5C99;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 15px;
+	padding-left: 100px;
+	margin-top: 15px;
+}
+#setting-pdf h3, #setting-pdf ul, #setting-pdf p {
+	margin-left: 40px;
+}
+#logodisplaydiv, #watermarkdisplaydiv {
+	width: 14%;
+	border: 1px dashed #b4b9be;
+	padding: 9px 0;
+	margin-bottom: 10px;
+}
+
+.pdf_button {
+	font-size: 13px;
+	margin: 0;
+	padding: 8px 10px;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	white-space: nowrap;
+	-moz-box-sizing: border-box;
+	color: #555;
+	border-color: #ccc;
+	background: #f7f7f7;
+	box-shadow: 0 1px 0 #ccc;
+}
+a.templateview {
+	border: 1px solid gray;
+	background: #346279;
+	padding: 6px 10px;
+	text-decoration: none;
+	float: right;
+	color: white;
+}
+#myContent {
+	text-align: center;
+	display: none;
+	padding: 5px 10px;
+}
+div#myContent img {
+	margin-left: -14%;
+}
+select.fme_select {
+	width: 28%;	
+}
+ul.pdf_seting_ul li {
+	font-size: 12px;
+	list-style-type: square;
+}
+ul.pdf_seting_ul {
+	margin-left: 2% !important;
+}

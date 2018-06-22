@@ -1,0 +1,8 @@
+<div class="form-contact">
+    <div class="form-contact__fields-short">
+        <div class="form-contact__item-short">[text* your-name placeholder "Your name"]</div>
+        <div class="form-contact__item-short">[email* your-email akismet:author_email placeholder "Email"]</div></div>
+    <div class="form-contact__fields-short">[text* your-subject placeholder "Subject"]</div>
+    [textarea your-message 0x0 placeholder "Message"]
+    <span class="atbtn atbtn--input-wrap"><i class="atbtn__icon fa fa-paper-plane"></i>[submit "Send"]</span>
+</div>

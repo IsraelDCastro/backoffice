@@ -1,0 +1,257 @@
+/*
+Theme Name: Adventure Tours Child
+Theme URI: http://themeforest.net/user/themedelight/portfolio
+Template: adventure-tours
+Author: ThemeDelight
+Author URI: http://themeforest.net/user/themedelight
+Description: Adventure Tours is a fully responsive WordPress theme
+Tags: blue,white,two-columns,right-sidebar,responsive-layout,flexible-header,custom-colors,theme-options,translation-ready,holiday
+Version: 2.2.9.1497307316
+Updated: 2017-06-12 22:41:56
+
+*/
+
+.footer__copyright{
+    text-align: center;
+    margin: 15px;
+    color: #fff;
+}
+.footer__copyright a{
+    color: #58a8fe;
+}
+.footer__copyright a:hover{
+    color: #1083ff;
+}
+.main-nav .sub-menu {
+    width: auto;
+}
+
+#logoLink img {
+    max-width: 370px;
+}
+.main-nav .sub-menu > li a {
+    display: block;
+}
+.main-nav .sub-menu > li {
+    padding: 0px;
+}
+.main-nav .sub-menu > li a:hover{
+color:#fff !important;
+background: #fb7a1b;
+transition: .3s ease-in-out;
+}
+.main-nav .sub-menu > li a{
+padding: 10px 15px;
+}
+
+
+.main-nav .sub-menu > li {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.layout-content {
+    background-color: #fff;
+}
+.main-nav li a[title="English"] {
+    border-right: none;
+}
+.icon-facebook, .icon-twitter, .icon-youtube, .icon-whatsapp, .icon-instagram{
+color:#fff !important;
+}
+
+.icon-instagram:hover{
+color:#f85443 !important;
+transition: .3s ease-in-out;
+}
+
+.icon-twitter:hover{
+color: #00aced !important;
+transition: .3s ease-in-out;
+}
+
+.icon-facebook:hover{
+color: #8b9dc3 !important;
+transition: .3s ease-in-out;
+}
+
+.icon-youtube:hover{
+color: #cc181e !important;
+transition: .3s ease-in-out;
+}
+
+.icon-whatsapp:hover{
+color: #25d366!important;
+transition: .3s ease-in-out;
+}
+
+.main-nav li a {
+    opacity: 1;
+    border-right: 1px solid #b9b9b9;
+    padding: 0 1em;
+    color: #525252;
+}
+.main-nav > li {
+    margin: 0px;
+}
+
+.space-between{
+margin:0 2em;
+}
+
+.header .container {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.main-nav > li wpml-ls-current-language a{
+border-right:none;
+}
+
+.main-nav .current-menu-item:after {
+    background: none !important;
+}
+
+.header{
+background:#efefef ;
+    border-bottom: 8px solid #525252;
+}
+.main-nav .sub-menu > li {
+    background: #efefef;
+    border-top: 1px solid #ccc;
+}
+
+.main-nav .sub-menu > li  a{
+    border-right: none;
+}
+.padding-all {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+.tours-tabs .nav-tabs {
+    border-bottom: none;
+}
+.price-decoration.block-after-indent.price-decoration--without-price{
+display:none;
+}
+
+.header-wrap--sticky-header .header__content {
+    line-height: 130px;
+}
+
+.header-wrap {
+    min-height: 60px;
+}
+
+.header__content {
+    min-height: 130px;
+    line-height: 130px;
+}
+
+.header-section{
+display:none;
+}
+
+.footer__copyright{
+    text-align: center;
+    margin: 15px;
+    color: #fff;
+}
+.footer__copyright a{
+    color: #58a8fe;
+}
+.footer__copyright a:hover{
+    color: #1083ff;
+}
+.margin-top {
+    margin-top: 0px; 
+}
+
+.tab-content>.active, .share-buttons {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+.tours-tabs .tab-content{
+width: 40%;
+background:none;
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.footer {
+    background: #252525;
+    color: #959da7;
+    padding-top: 30px;
+}
+.footer h3{
+    color: #1ea5ff !important;
+letter-spacing: 4px;
+}
+
+.widget-contact-info, #text-3{
+    width: 87%;
+    float: right;
+}
+#text-3{
+margin-bottom: 0px;
+}
+
+@media (max-width: 767px){
+.vc_row.wpb_row.vc_row-fluid{
+width: 100% !important;
+padding-right: 0px !important;
+}
+}
+@media (min-width: 992px){
+.atgrid__item__top, .atgrid__item__content{
+    width: 50%;
+    float: left;
+}
+}
+
+.btn-outline-secondary {
+    color: #868e96;
+    background-color: transparent;
+    background-image: none;
+    border-color: #868e96;
+}
+
+.btn {
+    display: inline-block;
+letter-spacing: 4px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid  #868e96 !important;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #868e96;
+    border-color: #868e96;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    padding: 10px 16px !important;
+    font-size: 12px !important;
+    line-height: 1.3333333 !important;
+    border-radius: 6px !important;
+}
+.btn-block {
+    display: block;
+    width: 70%;
+}

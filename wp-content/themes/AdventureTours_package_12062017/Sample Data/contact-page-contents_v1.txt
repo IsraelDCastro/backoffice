@@ -1,0 +1,14 @@
+[row css_class="margin-bottom"][column width="6/12"]
+
+[title text="Contact Details" subtitle="Would like to talk?" size="small" position="left" decoration="off" underline="off" style="dark"] If you have a story to share or a question that has not been answered on our website, please get in touch with us via contact details listed below or fill in the form on the right.
+<div style="height: 20px;"></div>
+[contact_info address="777 Franklin St, San Francisco" phone="+1 420-240-6000" email="contact@adventuretours.com" skype="adventure.tours"]<div style="height: 20px;"></div>
+[social_icons title="" facebook_url="http://facebook.com" twitter_url="http://twitter.com" googleplus_url="http://googleplus.com" pinterest_url="http://pinterest.com" linkedin_url="http://linkedin.com"]
+
+[/column][column width="6/12"]
+
+[title text="Get in Touch" subtitle="Have a question?" size="small" position="left" decoration="off" underline="off" style="dark"][contact-form-7 id="162" title="Contact Us"]
+
+[/column][/row]
+
+[google_map coordinates="37.7919688,-122.4243583" zoom="10" height="400" width_mode="full-width" css_class="stick-to-bottom"]

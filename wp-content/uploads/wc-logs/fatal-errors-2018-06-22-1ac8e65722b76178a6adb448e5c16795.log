@@ -1,0 +1,99 @@
+2018-06-22T20:54:02+00:00 CRITICAL Uncaught Error: Class 'Affiliate_Account_Page' not found in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php:127
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_header('', '', 'uap-account-hea...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-he...')
+#3 /Applications/MAMP/htdocs/backoffice2/wp-content/themes/visual-composer-starter-theme-child/header.php(25): do_shortcode('[uap-account-he...')
+#4 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(688): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#6 /Applications/MAMP/htdocs/backoffice2/wp-includes/general-template.php(41): locate_template(Array, tr
+
+2018-06-22T20:54:56+00:00 CRITICAL Uncaught Error: Class 'Affiliate_Account_Page' not found in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php:127
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_header('', '', 'uap-account-hea...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-he...')
+#3 /Applications/MAMP/htdocs/backoffice2/wp-content/themes/visual-composer-starter-theme-child/header.php(25): do_shortcode('[uap-account-he...')
+#4 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(688): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#6 /Applications/MAMP/htdocs/backoffice2/wp-includes/general-template.php(41): locate_template(Array, tr
+
+2018-06-22T20:55:08+00:00 CRITICAL Uncaught Error: Class 'Affiliate_Account_Content' not found in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php:129
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_header('', '', 'uap-account-hea...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-he...')
+#3 /Applications/MAMP/htdocs/backoffice2/wp-content/themes/visual-composer-starter-theme-child/header.php(25): do_shortcode('[uap-account-he...')
+#4 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(688): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#6 /Applications/MAMP/htdocs/backoffice2/wp-includes/general-template.php(41): locate_template(Array,
+
+2018-06-22T20:55:17+00:00 CRITICAL Uncaught Error: Class 'Affiliate_Account_Page' not found in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php:145
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_content('', '', 'uap-account-con...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-co...')
+#3 /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/js_composer/include/helpers/helpers.php(232): do_shortcode('[uap-account-co...')
+#4 /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column_text.php(31): wpb_js_remove_wpautop('<p>[uap-account...', true)
+#5 /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/js_composer/include/classes/shortcodes/shortcodes.php(473): include('/Applications/M...')
+#6 /
+
+2018-06-22T20:56:09+00:00 CRITICAL Uncaught Error: Class 'Affiliate_Account_Page' not found in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php:127
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_header('', '', 'uap-account-hea...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-he...')
+#3 /Applications/MAMP/htdocs/backoffice2/wp-content/themes/visual-composer-starter-theme-child/header.php(25): do_shortcode('[uap-account-he...')
+#4 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(688): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#6 /Applications/MAMP/htdocs/backoffice2/wp-includes/general-template.php(41): locate_template(Array, tr
+
+2018-06-22T20:56:14+00:00 CRITICAL Uncaught Error: Class 'Affiliate_Account_Page' not found in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php:127
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_header('', '', 'uap-account-hea...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-he...')
+#3 /Applications/MAMP/htdocs/backoffice2/wp-content/themes/visual-composer-starter-theme-child/header.php(25): do_shortcode('[uap-account-he...')
+#4 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(688): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(647): load_template('/Applications/M...', true)
+#6 /Applications/MAMP/htdocs/backoffice2/wp-includes/general-template.php(41): locate_template(Array, tr
+
+2018-06-22T21:35:47+00:00 CRITICAL Uncaught Error: Call to undefined method Affiliate_Account_Page::run_overview() in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Affiliate_Account_Page.class2.php:47
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php(129): Affiliate_Account_Page->output()
+#1 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_header('', '', 'uap-account-hea...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-he...')
+#4 /Applications/MAMP/htdocs/backoffice2/wp-content/themes/visual-composer-starter-theme-child/header.php(25): do_shortcode('[uap-account-he...')
+#5 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(688): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/backof
+
+2018-06-22T21:36:35+00:00 CRITICAL Uncaught Error: Call to undefined method Affiliate_Account_Page::run_overview() in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Affiliate_Account_Page.class2.php:81
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php(129): Affiliate_Account_Page->output()
+#1 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_header('', '', 'uap-account-hea...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-he...')
+#4 /Applications/MAMP/htdocs/backoffice2/wp-content/themes/visual-composer-starter-theme-child/header.php(25): do_shortcode('[uap-account-he...')
+#5 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(688): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/backof
+
+2018-06-22T21:53:49+00:00 CRITICAL Uncaught Error: Call to undefined method Affiliate_Account_Page::head() in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Affiliate_Account_Page.class2.php:42
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php(129): Affiliate_Account_Page->output()
+#1 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_header('', '', 'uap-account-hea...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-he...')
+#4 /Applications/MAMP/htdocs/backoffice2/wp-content/themes/visual-composer-starter-theme-child/header.php(25): do_shortcode('[uap-account-he...')
+#5 /Applications/MAMP/htdocs/backoffice2/wp-includes/template.php(688): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/backoffice2/wp
+
+2018-06-22T21:56:06+00:00 CRITICAL Uncaught Error: Call to a member function get_stats_for_payments() on null in /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Affiliate_Account_Page.class2.php:56
+Stack trace:
+#0 /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Affiliate_Account_Page.class2.php(42): Affiliate_Account_Page->head()
+#1 /Applications/MAMP/htdocs/backoffice2/wp-content/plugins/indeed-affiliate-pro/public/Uap_Main_Public.class.php(129): Affiliate_Account_Page->output()
+#2 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(319): Uap_Main_Public->affiliate_print_account_header('', '', 'uap-account-hea...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /Applications/MAMP/htdocs/backoffice2/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(uap\\-a...', 'do_shortcode_ta...', '[uap-account-he...')
+#5 /Applications/MAMP/htdocs/backoffice2/wp-content/themes/visual-composer-starter-theme-child/header.php(25): do_shortcode('[uap-accou
+

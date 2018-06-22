@@ -1,0 +1,1 @@
+vcvWebpackJsonp([2],[function(e,n,v){"use strict";var E=v("./node_modules/vc-cake/index.js");(0,E.env)("THEME_LAYOUTS",!0),(0,E.env)("THEME_EDITOR",!1),(0,E.env)("ADD_TEMPLATE_DROPDOWN",!0)}]);

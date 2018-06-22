@@ -1,0 +1,25 @@
+[row][column width="9/12"][title text="Why Choose Us?" size="big" position="left" decoration="off" underline="off" style="dark"][icons_set row_size="3"]
+[icon_item icon="td-earth-1" title="Diverse destinations"]Habitasse. Nunc mollis erat dapibus in commodo eu nisi. Odio purus magnis lorem.[/icon_item]
+[icon_item icon="td-banknote-1" title="Best prices"]Nulla imperdiet dictum laoreet netus. Habitant ullamcorper. Auctor auctor cras.[/icon_item]
+[icon_item icon="td-photocamera-5" title="Beautiful places"]Eu molestie Purus ac. Facilisis hac in metus nunc parturient ornare consequat enim.[/icon_item]
+[icon_item icon="td-calendar-2" title="Fast booking"]Torquent egestas. Per integer placerat ipsum quam adipiscing vehicula nisi.[/icon_item]
+[icon_item icon="td-chat" title="Instant help"]Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.[/icon_item]
+[icon_item icon="td-heart" title="Emotional travel"]Metus cubilia aenean. Fusce, dapibus netus nullam interdum ut vehicula.[/icon_item]
+[/icons_set][/column]
+[column width="3/12" add_mobile_spacer="on"][tour_search_form title="Search Tours" note="Find your dream tour today!"][/column]
+[/row]
+
+[tour_carousel title="Most Popular Tours" title_underline="off" sub_title="Take a Look at Our" description_words_limit="10" css_class="margin-bottom-large" bg_url="" arrow_style="light"]
+
+[tours_grid title="Deals and Discounts" title_underline="on" sub_title="Sagittis vulputate magna sagittis sagittis erat feugiat nullam cubilia amet dignissim Euismod." description_words_limit="7" tour_category="deals-and-discounts" number="4" css_class="margin-bottom-large tour-list-home" price_style="highlighted" show_categories="on" btn_more_text="View More" btn_more_link="/tour-category/deals-and-discounts/"]
+
+[tour_category_images title="Destination" title_underline="on" sub_title="Find a Tour by" ignore_empty="on" css_class="section-white"]
+
+[tour_category_icons title="Tour Type" title_underline="on" sub_title="Find a Tour by" bg_url="" ignore_empty="on"]
+
+[row css_class="section-white padding-top-large padding-bottom"]
+[column width="6/12"][latest_posts title="Latest Post" title_underline="on" number="1" read_more_text="Read more" words_limit="25" translate="on"] [/column]
+[column width="6/12"][tour_reviews title="Tour Reviews" title_underline="on" number="2"] [/column]
+[/row]
+
+[mailchimp_form form_id="1" button_text="Subscribe" title="Join the Newsletter" width_mode="full-width" bg_repeat="repeat" css_class="stick-to-bottom" bg_url=""]To receive our best monthly deals[/mailchimp_form]
