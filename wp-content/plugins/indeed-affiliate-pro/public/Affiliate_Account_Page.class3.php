@@ -19,7 +19,7 @@ if (!class_exists('Affiliate_Account_Page')){
 			$this->affiliate_id = $affiliate_id;
 			$this->general_settings = $indeed_db->return_settings_from_wp_option('general-settings');
 			$this->public_extra_settings = $indeed_db->return_settings_from_wp_option('general-public_workflow');
-			$this->account_page_settings = $indeed_db->return_settings_from_wp_option('account_content');
+			$this->account_page_settings = $indeed_db->return_settings_from_wp_option('account_page');
 			$this->current_url = UAP_PROTOCOL . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; /// $_SERVER['SERVER_NAME']
 
 			/// CREATE BASE URL
@@ -38,6 +38,9 @@ if (!class_exists('Affiliate_Account_Page')){
 			 * @return string
 			 */
 			$tab = (empty($_GET['uap_aff_subtab'])) ? 'overview' : $_GET['uap_aff_subtab'];
+
+			/// HEAD
+			// $this->head();
 
 			/// CONTENT
 			if (empty($tab)){

@@ -385,10 +385,10 @@ if (!class_exists('Uap_Main_Admin')){
 					$this->print_account_page();
 					break;
 				case 'account_header':
-					$this->print_account_page();
+					$this->print_account_header();
 					break;
 				case 'account_content':
-					$this->print_account_page();
+					$this->print_account_content();
 					break;
 				case 'opt_in':
 					$this->print_opt_in();
