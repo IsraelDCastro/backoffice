@@ -15,8 +15,7 @@ if ( visualcomposerstarter_is_the_footer_displayed() ) : ?>
 			<div class="footer-left-block">
 				<p class="copyright">
 					<span>
-						Copyright © 2018 Globex Tours Backoffice. All Rights Reserved.
-						Proudly powered by <a href="https://www.innova-code.com/">Innovacode</a></span>
+						Testing One Page LOL</span>
 				</p>
 			</div>
 		</div>
